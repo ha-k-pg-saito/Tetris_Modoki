@@ -148,20 +148,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\Block\Block.cpp" />
+    <ClCompile Include="Src\Block\BlockBase.cpp" />
     <ClCompile Include="Src\Scene\GameScene.cpp" />
     <ClCompile Include="Src\Scene\ResultScene.cpp" />
     <ClCompile Include="Src\Scene\Scene.cpp" />
     <ClCompile Include="Src\Scene\TitleScene.cpp" />
     <ClCompile Include="Src\Stage\Stage.cpp" />
+    <ClCompile Include="Src\Texture\TexManager.cpp" />
     <ClCompile Include="Tetris.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Block\Block.h" />
+    <ClInclude Include="Src\Block\BlockBase.h" />
+    <ClInclude Include="Src\Block\Block_I.h" />
+    <ClInclude Include="Src\Block\Block_J.h" />
+    <ClInclude Include="Src\Block\Block_L.h" />
+    <ClInclude Include="Src\Block\Block_O.h" />
+    <ClInclude Include="Src\Block\Block_S.h" />
+    <ClInclude Include="Src\Block\Block_T.h" />
+    <ClInclude Include="Src\Block\Block_Z.h" />
     <ClInclude Include="Src\Scene\GameScene.h" />
     <ClInclude Include="Src\Scene\ResultScene.h" />
     <ClInclude Include="Src\Scene\Scene.h" />
     <ClInclude Include="Src\Scene\TitleScene.h" />
     <ClInclude Include="Src\Stage\Stage.h" />
+    <ClInclude Include="Src\Texture\TexManager.h" />
+    <ClInclude Include="Src\Utility\Vec2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,6 +14,12 @@
     <Filter Include="ソース ファイル\Block">
       <UniqueIdentifier>{9ea9fd69-688c-4782-82bf-739fe59013f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{9e8b1da9-2f49-42f2-abf9-729f15084bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Texture">
+      <UniqueIdentifier>{cf08c19e-c029-4859-b999-0d9aa84a34f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tetris.cpp">
@@ -34,8 +40,14 @@
     <ClCompile Include="Src\Scene\GameScene.cpp">
       <Filter>ソース ファイル\Scene</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Block\BlockBase.cpp">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClCompile>
     <ClCompile Include="Src\Block\Block.cpp">
       <Filter>ソース ファイル\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture\TexManager.cpp">
+      <Filter>ソース ファイル\Texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +66,37 @@
     <ClInclude Include="Src\Scene\TitleScene.h">
       <Filter>ソース ファイル\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Utility\Vec2.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\BlockBase.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
     <ClInclude Include="Src\Block\Block.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture\TexManager.h">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_L.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_O.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_S.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_Z.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_I.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_T.h">
+      <Filter>ソース ファイル\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Block\Block_J.h">
       <Filter>ソース ファイル\Block</Filter>
     </ClInclude>
   </ItemGroup>
